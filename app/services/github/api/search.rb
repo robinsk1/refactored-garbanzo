@@ -16,7 +16,7 @@ module Github
         conn.get('repositories', { q: @params })
       rescue Faraday::Error => e
         Rails.logger.error e.to_s
-        nil
+        raise
       end
     end
   end
