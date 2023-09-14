@@ -1,24 +1,18 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
+A small ruby on rails app that allows a user to search github repos using free text search
 
 * Ruby version
-
-* System dependencies
-
+  `3.2.2`
+  
 * Configuration
+  `bundle install`
+  
+* Dependancies
+  `https://docs.github.com/en/rest?apiVersion=2022-11-28`
 
 * Database creation
+  `No DB required`
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* Run
+  `rails s`
